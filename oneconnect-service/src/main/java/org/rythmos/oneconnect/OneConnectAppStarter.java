@@ -29,6 +29,7 @@ public class OneConnectAppStarter {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Testing purpose");
 		SpringApplication.run(OneConnectAppStarter.class, args);
 	}
 
