@@ -1,0 +1,69 @@
+######################
+# Local Instance     #
+######################
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/oneconnectdbqa
+#    username: root
+#    password: Passcode123$
+#    
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update   
+#  jackson:#    time-zone: IST#
+#server:  
+#   port: 6002
+
+
+
+######################
+#Dev Instance        #
+######################
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/oneconnectdbqa
+#    username: reports
+#    password: passpass
+#    
+#  jpa:
+#    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    #show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#     
+#server:
+#  port: 6002
+
+######################
+# UAT Instance      #
+######################
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/oneconnectdbqa
+    username: oneconnectdbqa
+    password: Passcode123$
+    
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    #show-sql: true
+    hibernate:
+      ddl-auto: update
+     
+server:
+  port: 6002
+   
+  
+# App Properties
+#portal.app.jwtSecret=jwtGrokonezSecretKey
+#portal.app.jwtExpiration=86400
+#server.port=9090
+
+#spring.datasource.url= jdbc:mysql://localhost:3306/reports
+#spring.datasource.username=reports
+#spring.datasource.password=passpass
+#spring.jpa.hibernate.ddl-auto=update
+#spring:jpa:database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+

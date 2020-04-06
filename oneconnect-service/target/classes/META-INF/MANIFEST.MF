@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: oneconnect-service
+Implementation-Version: 0.1.47-SNAPSHOT
+Built-By: Ngannavarapu
+Implementation-Vendor-Id: com.rythmos.oneconnect
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/oneconnect-service
+Created-By: Maven Integration for Eclipse
+
